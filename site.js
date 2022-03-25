@@ -40,8 +40,56 @@ const vue_app = Vue.createApp({
             github: 'https://github.com/bojangles77/Byrnes-P3'
       }
     },
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 6ed3604acaea1a14f6886ced7800aeb08032be38
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            getMonthText(dateArray) {
+              switch(released[1]) {
+                case "1":
+                  released[1] = "January";
+                  break;
+                case "2":
+                  released[1] = "February";
+                  break;
+                case "3":
+                  released[1] = "March";
+                  break;
+                case "4":
+                  released[1] = "April";
+                  break;
+                case "5":
+                  released[1] = "May";
+                  break;
+                case "6":
+                  released[1] = "June";
+                  break;
+                case "7":
+                  released[1] = "July";
+                  break;
+                case "8":
+                  released[1] = "August";
+                  break;
+                case "9":
+                  released[1] = "September";
+                  break;
+                case "10":
+                  released[1] = "October";
+                  break;
+                case "11":
+                  released[1] = "November";
+                  break;
+                case "12":
+                  released[1] = "December";
+                  break;
+
+
+              }
+            }
       }
 })
 
