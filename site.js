@@ -84,8 +84,10 @@ const vue_app = Vue.createApp({
               }
               return month + " " + dateArray[2] + ", " + dateArray[0];
             },
-            like(index) 
-      }
+            like(index) {
+
+            }
+
 
 
 })
