@@ -40,10 +40,6 @@ const vue_app = Vue.createApp({
             github: 'https://github.com/bojangles77/Byrnes-P3'
       }
     },
-      x = 0
-      x = x + 1
-
-
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
       }
