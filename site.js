@@ -40,57 +40,54 @@ const vue_app = Vue.createApp({
             github: 'https://github.com/bojangles77/Byrnes-P3'
       }
     },
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 6ed3604acaea1a14f6886ced7800aeb08032be38
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             getMonthText(dateArray) {
-              switch(released[1]) {
-                case "1":
-                  released[1] = "January";
+              let month = "";
+              switch(dateArray[1]) {
+                case 1:
+                  month = "January";
                   break;
-                case "2":
-                  released[1] = "February";
+                case 2:
+                  month = "February";
                   break;
-                case "3":
-                  released[1] = "March";
+                case 3:
+                  month = "March";
                   break;
-                case "4":
-                  released[1] = "April";
+                case 4:
+                  month = "April";
                   break;
-                case "5":
-                  released[1] = "May";
+                case 5:
+                  month = "May";
                   break;
-                case "6":
-                  released[1] = "June";
+                case 6:
+                  month = "June";
                   break;
-                case "7":
-                  released[1] = "July";
+                case 7:
+                  month = "July";
                   break;
-                case "8":
-                  released[1] = "August";
+                case 8:
+                  month = "August";
                   break;
-                case "9":
-                  released[1] = "September";
+                case 9:
+                  month = "September";
                   break;
-                case "10":
-                  released[1] = "October";
+                case 10:
+                  month = "October";
                   break;
-                case "11":
-                  released[1] = "November";
+                case 11:
+                  month = "November";
                   break;
-                case "12":
-                  released[1] = "December";
+                case 12:
+                  month = "December";
                   break;
-
-
               }
-            }
+              return month + " " + dateArray[2] + ", " + dateArray[0];
+            },
+            like(index) 
       }
+
+
 })
 
 vue_app.mount("#vue_app")
