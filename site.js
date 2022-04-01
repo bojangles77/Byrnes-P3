@@ -85,19 +85,21 @@ const vue_app = Vue.createApp({
               return month + " " + dateArray[2] + ", " + dateArray[0];
             },
             posterClick(index) {
-              return this.movies[index].posterindex++;
-              let length = posters.length;
-
-              if (length > 2) {
-                
-              } else if (length > 1) {
-                greeting = "Good day";
+              // return this.movies[index].posterindex++;
+              // let length = this.movies[index].posters.length;
+              if (this.movies[index].posterindex > this.movies[index].posters.length - 2) {
+                this.movies[index].posterindex = 0
               } else {
-                greeting = "Good evening";
+                this.movies[index].posterindex++;
               }
+
+            },
+            timeText(minutes) {
+              return Math.trunc(minutes / 60) + " hours " + minutes % 60 + " minutes";
             }
 
-}
+            // \/ This is the methods one
+            }
 })
 
 vue_app.mount("#vue_app")
