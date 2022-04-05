@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "The Batman",
+            "iscore": 8.3,
+            "rating": "PG-13",
+            "runtime": 176,
+            "released": [2022, 3, 4],
+            "country": "USA",
+            "posters": ["img/thebatman1.jpg", "img/thebatman2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1877830/?ref_=fn_al_tt_1",
+            "website": "https://www.thebatman.com/",
+            "likes": 1052,
+            "dislikes": 424,
+            "posterindex": 0
+      },
+      {
+            "title": "White House Down",
+            "iscore": 6.3,
+            "rating": "PG-13",
+            "runtime": 131,
+            "released": [2013, 6, 28],
+            "country": "USA",
+            "posters": ["img/whd.jpg", "img/whd3.jpg"],
+            "imdb": "https://www.imdb.com/title/tt2334879/?ref_=nv_sr_srsg_0",
+            "website": "https://www.sonypictures.com/movies/whitehousedown",
+            "likes": 5430,
+            "dislikes": 23,
+            "posterindex": 0
+      },
+      {
+            "title": "Avengers: Endgame",
+            "iscore": 8.4,
+            "rating": "PG-13",
+            "runtime": 181,
+            "released": [2019, 4, 26],
+            "country": "USA",
+            "posters": ["img/endgame.jpg", "img/endgame2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0",
+            "website": "https://www.marvel.com/movies/avengers-endgame",
+            "likes": 2303,
+            "dislikes": 359,
+            "posterindex": 0
       }
 ]
